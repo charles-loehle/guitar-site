@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto&display=swap');
+
+/* base styles */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $heading-font;
+	background-color: $black-background;
+	// margin-top: -16px; // get rid of white space top of page
+	// margin-bottom: -16px; // get rid of white space bottom of page
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img,
+embed,
+object,
+video {
+	max-width: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: $heading-color;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 400;
+	margin: 0;
+}
+
+.accent {
+	color: $green-accent;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+.gutters {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+@media only screen and (min-width: 601px) {
+	.container {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 70%;
+	}
+}
+
+@media (min-width: 800px) {
+	.flex {
+		display: flex;
+	}
+	.m6 {
+		width: 50%;
+	}
+}

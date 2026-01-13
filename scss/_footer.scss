@@ -1,0 +1,22 @@
+footer {
+	background: $black-background;
+	color: #fff;
+	height: 300px;
+	text-align: center;
+	padding-top: 4rem;
+
+	.logo {
+		width: 100px;
+		height: 100px;
+		img {
+			width: 100px;
+			margin-bottom: 6rem;
+		}
+	}
+
+	p,
+	a {
+		font-size: 0.7rem;
+		color: rgba(255, 255, 255, 0.5);
+	}
+}

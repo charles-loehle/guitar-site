@@ -1,0 +1,85 @@
+// .contact-section {
+// 	background: url('../images/starry-sky-with-trees.jpg');
+// 	color: #fff;
+// 	height: 800px;
+// }
+
+.contact-section {
+	padding-top: 7rem;
+	background: url('../images/starry-sky-with-trees.jpg');
+	background-size: cover;
+	background-position-y: 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 800px;
+	position: relative;
+
+	.dark-overlay {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		display: flex;
+		align-items: center;
+	}
+
+	&__links {
+		a {
+			display: block;
+			text-align: center;
+			padding: 1rem;
+			font-size: 1.5rem;
+		}
+	}
+
+	h2 {
+		color: $green-accent;
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+
+	h3 {
+		font-size: 3.2rem;
+		font-weight: 600;
+	}
+
+	h4 {
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+
+	p {
+		color: rgba(255, 255, 255, 0.5);
+		line-height: 1.875;
+	}
+
+	&__header {
+		text-align: center;
+		margin-bottom: 3rem;
+		// margin-top: 10rem;
+	}
+
+	hr {
+		width: 240px;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	&__hello {
+		margin: 4.5rem 0 3rem;
+	}
+
+	&__skills {
+		.skills-logo-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			img {
+				width: 100px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
