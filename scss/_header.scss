@@ -26,7 +26,7 @@
 		opacity: 1;
 		visibility: visible;
 		// transition: all 1s ease-in-out;
-		background-color: $black-background;
+		background-color: $clr-black;
 	}
 
 	&__inner {
@@ -69,7 +69,7 @@
 			display: block;
 			width: 26px;
 			height: 2px;
-			background-color: white;
+			background-color: $clr-white;
 			transition: all 300ms ease-in-out;
 			transform-origin: 0px 1px;
 		}
@@ -81,7 +81,7 @@
 
 	.nav {
 		z-index: 3;
-		background-color: #000;
+		background-color: $clr-black;
 		width: 100%;
 		position: absolute;
 		transform: translate(0, -434px);
@@ -101,7 +101,7 @@
 				border-bottom: 1px dotted rgba(255, 255, 255, 0.07);
 
 				&.active a {
-					color: $green-accent;
+					color: $clr-accent-dark;
 				}
 			}
 
@@ -157,11 +157,3 @@
 		}
 	}
 }
-
-// @media (min-width: 1000px) {
-// 	.header {
-// 		.nav {
-// 			width: 30%;
-// 		}
-// 	}
-// }

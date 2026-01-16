@@ -1,22 +1,38 @@
-// $green-accent: #3bb99b;
-$green-accent: #d4b273;
-// $green-accent-hover-bg: #35a88d;
-// $green-accent-hover-border: #2d947c;
-$green-accent-hover-bg: #d8ac5b;
-$green-accent-hover-border: #d8ac5b;
-$green-accent-focus-box-shadow: 0 0 0 0.25rem #d8ac5b;
-$heading-color: #0d0a0b;
-$text-color: #5f5f5f;
-// $black-background: #0a0809;
-$black-background: #1d2228;
-$light-blue-background: #2d3540;
-$heading-font: 'Montserrat', sans-serif;
-$heading-color: #fcfdff;
-$text-color: #fcfdff;
-$text-font: 'Roboto', sans-serif;
+// GLOBAL VARIABLES
+// ACCENT: logo, cta button bg, nav text, headshot border.
+$clr-accent-light: #d4b273;
+$clr-accent-dark: #d8ac5b;
 
-// White text: #fcfdff
-// Gold nav text, logo and cta button:  #d4b273
-// Dark Blue bg: #1D2228
-// Light blue secondary bg:  #2D3540
-// Light blue cta button: #405971
+// PRIMARY: page background
+$clr-primary: #1d2228;
+// SECONDARY: secondary cta button, 3 column cards background
+$clr-secondary: #2d3540;
+// TERTIARY: footer background
+$clr-tertiary: #808080;
+
+// TEXT COLOR
+$clr-text-heading: #fcfdff;
+$clr-text-body: #fcfdff;
+
+// TYPOGRAPHY
+$font-fam-primary: 'Montserrat', sans-serif;
+$font-fam-secondary: 'Roboto', sans-serif;
+$font-size-h1: 3.2rem;
+$font-size-h2: 1.4rem;
+$font-size-h3: 3.2rem;
+$font-size-h4: 1.5rem;
+$font-size-body: 1rem;
+$font-wt-light: 400;
+$font-wt-normal: 600;
+$font-wt-bold: 700;
+$line-ht-base: 1.5;
+$line-ht-tight: 1.2;
+$line-ht-loose: 1.8;
+
+// white: tagline under logo, secondary cta btn text, cards text, footer social links
+$clr-white: #fcfdff;
+// black
+$clr-black: #0d0a0b;
+
+// --- BUTTONS ---
+$btn-focus-box-shadow: 0 0 0 0.25rem $clr-accent-dark;

@@ -190,8 +190,11 @@ html {
 }
 
 body {
+  color: #fcfdff;
   background-color: #1d2228;
   font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
 * {
@@ -209,7 +212,7 @@ ul {
 }
 
 a {
-  color: #fff;
+  color: #fcfdff;
   text-decoration: none;
 }
 
@@ -219,11 +222,32 @@ h1, h2, h3, h4 {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400;
+}
+
+h2 {
+  color: #d8ac5b;
+  letter-spacing: .15rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+hr {
+  border-top: 1px solid #0000001a;
+  width: 240px;
 }
 
 .accent {
-  color: #d4b273;
+  color: #d8ac5b;
 }
 
 .container {
@@ -286,7 +310,7 @@ h1, h2, h3 {
 .header.scrolling {
   opacity: 1;
   visibility: visible;
-  background-color: #1d2228;
+  background-color: #0d0a0b;
 }
 
 .header__inner {
@@ -326,7 +350,7 @@ h1, h2, h3 {
 
 .header__menu span {
   transform-origin: 0 1px;
-  background-color: #fff;
+  background-color: #fcfdff;
   width: 26px;
   height: 2px;
   transition: all .3s ease-in-out;
@@ -339,7 +363,7 @@ h1, h2, h3 {
 
 .header .nav {
   z-index: 3;
-  background-color: #000;
+  background-color: #0d0a0b;
   width: 100%;
   padding: 120px 40px 62px;
   transition: transform .3s;
@@ -362,7 +386,7 @@ h1, h2, h3 {
 }
 
 .header .nav ul li.active a {
-  color: #d4b273;
+  color: #d8ac5b;
 }
 
 .header .nav ul a {
@@ -449,7 +473,7 @@ h1, h2, h3 {
 
 .hero .hero-cta__headline p:before {
   content: "";
-  background-color: #d4b273;
+  background-color: #d8ac5b;
   width: 40px;
   height: 2px;
   margin-top: -1.5px;
@@ -511,8 +535,8 @@ h1, h2, h3 {
   content: "";
   pointer-events: none;
   transform-origin: 66% 66%;
-  border-bottom: 2px solid #d4b273;
-  border-right: 2px solid #d4b273;
+  border-bottom: 2px solid #d8ac5b;
+  border-right: 2px solid #d8ac5b;
   width: 9px;
   height: 9px;
   margin-top: -15px;
@@ -555,7 +579,7 @@ h1, h2, h3 {
 }
 
 .btn-accent {
-  color: #fcfdff;
+  color: #0d0a0b;
   background-color: #d4b273;
   border-color: #d4b273;
 }
@@ -566,8 +590,6 @@ h1, h2, h3 {
 }
 
 .btn-accent:focus {
-  background-color: #d8ac5b;
-  border-color: #d8ac5b;
   box-shadow: 0 0 0 .25rem #d8ac5b;
 }
 
@@ -575,36 +597,9 @@ h1, h2, h3 {
   padding: 7rem 0;
 }
 
-.about-section h2 {
-  color: #d4b273;
-  letter-spacing: .15rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-.about-section h3 {
-  font-size: 3.2rem;
-  font-weight: 600;
-}
-
-.about-section h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.about-section p {
-  color: #fcfdff;
-  line-height: 1.875;
-}
-
 .about-section__header {
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.about-section hr {
-  border-top: 1px solid #0000001a;
-  width: 240px;
 }
 
 .about-section__hello, .about-section__skills {
@@ -624,41 +619,14 @@ h1, h2, h3 {
 }
 
 .projects-section {
-  background-color: #1d2228;
+  background-color: #d8ac5b;
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.projects-section h2 {
-  color: #d4b273;
-  letter-spacing: .15rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-.projects-section h3 {
-  font-size: 3.2rem;
-  font-weight: 600;
-}
-
-.projects-section h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.projects-section p {
-  color: #fcfdff;
-  line-height: 1.5;
 }
 
 .projects-section__header {
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.projects-section hr {
-  border-top: 1px solid #0000001a;
-  width: 240px;
 }
 
 .projects-section .projects-grid {
@@ -727,22 +695,6 @@ h1, h2, h3 {
   display: block;
 }
 
-.contact-section h2 {
-  color: #d4b273;
-  font-size: 1.1rem;
-  font-weight: 700;
-}
-
-.contact-section h3 {
-  font-size: 3.2rem;
-  font-weight: 600;
-}
-
-.contact-section h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
 .contact-section p {
   color: #ffffff80;
   line-height: 1.875;
@@ -751,11 +703,6 @@ h1, h2, h3 {
 .contact-section__header {
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.contact-section hr {
-  border-top: 1px solid #0000001a;
-  width: 240px;
 }
 
 .contact-section__hello {
@@ -775,9 +722,9 @@ h1, h2, h3 {
 }
 
 footer {
-  color: #fff;
+  color: #fcfdff;
   text-align: center;
-  background: #1d2228;
+  background: #0d0a0b;
   height: 300px;
   padding-top: 4rem;
 }

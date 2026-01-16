@@ -34,22 +34,6 @@
 		}
 	}
 
-	h2 {
-		color: $green-accent;
-		font-size: 1.1rem;
-		font-weight: 700;
-	}
-
-	h3 {
-		font-size: 3.2rem;
-		font-weight: 600;
-	}
-
-	h4 {
-		font-weight: 700;
-		font-size: 1.5rem;
-	}
-
 	p {
 		color: rgba(255, 255, 255, 0.5);
 		line-height: 1.875;
@@ -59,11 +43,6 @@
 		text-align: center;
 		margin-bottom: 3rem;
 		// margin-top: 10rem;
-	}
-
-	hr {
-		width: 240px;
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
 	&__hello {

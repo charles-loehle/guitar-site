@@ -34,18 +34,16 @@
 
 /* ACCENT =====================*/
 .btn-accent {
-	color: $heading-color;
-	background-color: $green-accent;
-	border-color: $green-accent;
+	color: $clr-black;
+	background-color: $clr-accent-light;
+	border-color: $clr-accent-light;
 }
 
 .btn-accent:hover {
-	background-color: $green-accent-hover-bg;
-	border-color: $green-accent-hover-border;
+	background-color: $clr-accent-dark;
+	border-color: $clr-accent-dark;
 }
 
 .btn-accent:focus {
-	background-color: $green-accent-hover-bg;
-	border-color: $green-accent-hover-border;
-	box-shadow: $green-accent-focus-box-shadow;
+	box-shadow: $btn-focus-box-shadow;
 }

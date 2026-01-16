@@ -6,8 +6,11 @@ html {
 }
 
 body {
-	font-family: $heading-font;
-	background-color: $black-background;
+	font-family: $font-fam-primary;
+	background-color: $clr-primary;
+	font-size: $font-size-body;
+	line-height: $line-ht-loose;
+	color: $clr-text-body;
 	// margin-top: -16px; // get rid of white space top of page
 	// margin-bottom: -16px; // get rid of white space bottom of page
 }
@@ -31,25 +34,46 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: $clr-text-body;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	color: $heading-color;
+	color: $clr-text-heading;
 }
 
 h1,
 h2,
 h3 {
-	font-weight: 400;
 	margin: 0;
 }
 
+h2 {
+	color: $clr-accent-dark;
+	font-size: $font-size-h2;
+	font-weight: $font-wt-bold;
+	letter-spacing: 0.15rem;
+}
+
+h3 {
+	font-size: $font-size-h3;
+	font-weight: $font-wt-normal;
+}
+
+h4 {
+	font-weight: $font-wt-bold;
+	font-size: $font-size-h4;
+}
+
+hr {
+	width: 240px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .accent {
-	color: $green-accent;
+	color: $clr-accent-dark;
 }
 
 .container {

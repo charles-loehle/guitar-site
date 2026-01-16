@@ -35,7 +35,7 @@
 				content: '';
 				width: 40px;
 				height: 2px;
-				background-color: $green-accent;
+				background-color: $clr-accent-dark;
 				margin-top: -1.5px;
 				position: absolute;
 				left: -5px;
@@ -95,8 +95,8 @@
 		}
 
 		&__scroll::after {
-			border-bottom: 2px solid $green-accent;
-			border-right: 2px solid $green-accent;
+			border-bottom: 2px solid $clr-accent-dark;
+			border-right: 2px solid $clr-accent-dark;
 			content: '';
 			display: block;
 			height: 9px;
