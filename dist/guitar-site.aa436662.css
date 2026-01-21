@@ -438,7 +438,7 @@ hr {
 
 .hero {
   color: #fff;
-  background: url("starry-sky-rotating-cropped.4131f351.jpg") 0 100% / cover no-repeat;
+  background: url("https://imgs.search.brave.com/TygMbl7INoCFy5TTwd8IThWDE9KAkqY8UcCkL7FekCE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzAwLzg3LzMz/LzM2MF9GXzQwMDg3/MzMxMl91RktFeWVj/VXowYU16QzRPUUJH/QngwSnhtM2drdE1G/ZC5qcGc") 0 100% / cover no-repeat;
   min-height: 100vh;
   padding: 100px 0;
 }
@@ -454,7 +454,7 @@ hr {
 
 .hero .hero-cta {
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   width: 80%;
   height: 100%;
   margin: auto;
@@ -593,6 +593,21 @@ hr {
   box-shadow: 0 0 0 .25rem #d8ac5b;
 }
 
+.btn-secondary {
+  color: #fcfdff;
+  background-color: #2d3540;
+  border-color: #2d3540;
+}
+
+.btn-secondary:hover {
+  background-color: #1d2228;
+  border-color: #1d2228;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 .25rem #d8ac5b;
+}
+
 .about-section {
   padding: 7rem 0;
 }
@@ -619,7 +634,6 @@ hr {
 }
 
 .projects-section {
-  background-color: #d8ac5b;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
@@ -663,8 +677,8 @@ hr {
 
 @media (width >= 800px) {
   .projects-section .projects-grid {
-    grid-gap: 3rem;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     display: grid;
   }
 }

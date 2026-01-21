@@ -1,7 +1,6 @@
 .projects-section {
 	padding-top: 7rem;
 	padding-bottom: 7rem;
-	background-color: $clr-accent-dark;
 
 	&__header {
 		text-align: center;
@@ -43,8 +42,9 @@
 	@media (min-width: 800px) {
 		.projects-grid {
 			display: grid;
-			grid-template-columns: 1fr 1fr;
-			grid-gap: 3rem;
+			// to prevent different column widths
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			grid-gap: 2rem;
 		}
 	}
 }

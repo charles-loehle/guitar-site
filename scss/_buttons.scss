@@ -47,3 +47,19 @@
 .btn-accent:focus {
 	box-shadow: $btn-focus-box-shadow;
 }
+
+/* SECONDARY =====================*/
+.btn-secondary {
+	color: $clr-white;
+	background-color: $clr-secondary;
+	border-color: $clr-secondary;
+}
+
+.btn-secondary:hover {
+	background-color: $clr-primary;
+	border-color: $clr-primary;
+}
+
+.btn-secondary:focus {
+	box-shadow: $btn-focus-box-shadow;
+}
