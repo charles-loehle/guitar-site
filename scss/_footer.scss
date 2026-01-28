@@ -1,22 +1,18 @@
+@use 'variables' as *;
+
 footer {
 	background: $clr-black;
 	color: $clr-white;
-	height: 300px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
-	padding-top: 4rem;
-
-	.logo {
-		width: 100px;
-		height: 100px;
-		img {
-			width: 100px;
-			margin-bottom: 6rem;
-		}
-	}
 
 	p,
 	a {
-		font-size: 0.7rem;
-		color: rgba(255, 255, 255, 0.5);
+		font-size: 1.5rem;
+		color: $clr-white;
+		padding: 1rem;
 	}
 }
