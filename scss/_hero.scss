@@ -2,7 +2,9 @@
 
 .hero {
 	//background: url('../images/starry-sky-rotating-cropped.jpg');
-	background: url('https://imgs.search.brave.com/TygMbl7INoCFy5TTwd8IThWDE9KAkqY8UcCkL7FekCE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzAwLzg3LzMz/LzM2MF9GXzQwMDg3/MzMxMl91RktFeWVj/VXowYU16QzRPUUJH/QngwSnhtM2drdE1G/ZC5qcGc');
+	// background: url('https://imgs.search.brave.com/TygMbl7INoCFy5TTwd8IThWDE9KAkqY8UcCkL7FekCE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzAwLzg3LzMz/LzM2MF9GXzQwMDg3/MzMxMl91RktFeWVj/VXowYU16QzRPUUJH/QngwSnhtM2drdE1G/ZC5qcGc');
+	background: url('../images/es-335-1920x1280.jpg');
+	// background: url('../images/es-335-3504x2326.jpg');
 	background-size: cover;
 	background-position-y: 100%;
 	background-repeat: no-repeat;
@@ -16,7 +18,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.hero-cta {
@@ -57,7 +59,7 @@
 			}
 
 			h2 {
-				font-size: 2rem;
+				font-size: 1.5rem;
 			}
 		}
 
@@ -77,7 +79,7 @@
 					font-size: 4.5rem;
 				}
 				h2 {
-					font-size: 3rem;
+					font-size: 1.5rem;
 				}
 			}
 		}

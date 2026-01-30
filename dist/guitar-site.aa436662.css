@@ -224,7 +224,7 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: #d8ac5b;
+  color: #fcfdff;
   letter-spacing: .15rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -431,13 +431,13 @@ hr {
 
 .hero {
   color: #fff;
-  background: url("https://imgs.search.brave.com/TygMbl7INoCFy5TTwd8IThWDE9KAkqY8UcCkL7FekCE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzAwLzg3LzMz/LzM2MF9GXzQwMDg3/MzMxMl91RktFeWVj/VXowYU16QzRPUUJH/QngwSnhtM2drdE1G/ZC5qcGc") 0 100% / cover no-repeat;
+  background: url("es-335-1920x1280.5393f3e7.jpg") 0 100% / cover no-repeat;
   min-height: 100vh;
   padding: 100px 0;
 }
 
 .hero .dark-overlay {
-  background-color: #000000b3;
+  background-color: #00000080;
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -488,7 +488,7 @@ hr {
 }
 
 .hero .hero-cta__headline h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (width >= 800px) {
@@ -505,7 +505,7 @@ hr {
   }
 
   .hero .hero-cta__headline h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 
