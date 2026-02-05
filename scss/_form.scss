@@ -48,6 +48,10 @@
 	width: 100%;
 	padding: 3px;
 	font-size: 16px;
+	display: block; /* Prevent inline-block spacing issues */
+	-webkit-appearance: none; /* Removes default Android/iOS inner shadows */
+	appearance: none;
+	box-sizing: border-box; /* Crucial for equal widths */
 }
 
 .contact-form input:focus {
