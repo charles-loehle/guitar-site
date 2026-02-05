@@ -1,0 +1,59 @@
+@use 'variables' as *;
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+/* Ensure your hidden elements don't take up space */
+.hidden,
+[type='hidden'] {
+	display: none !important;
+}
+
+/* 1. The Container: Handles sizing and centering */
+.contact-form {
+	width: 100%; /* Default for mobile */
+	max-width: 100%; /* Ensures it doesn't overflow */
+	margin-left: auto; /* Centers horizontally */
+	margin-right: auto; /* Centers horizontally */
+}
+
+/* 2. Media Query for Medium Screens */
+@media (min-width: 768px) {
+	.contact-form {
+		width: 70%; /* 70% width on desktops/large screens */
+	}
+}
+
+/* 2. Media Query for Large Screens */
+@media (min-width: 1000px) {
+	.contact-form {
+		width: 60%; /* 70% width on desktops/large screens */
+	}
+}
+
+/* 3. The Form: Keeps the Flexbox flow we set up earlier */
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form textarea {
+	border: 0;
+	border-bottom: 1px solid #b4becb;
+	width: 100%;
+	padding: 3px;
+	font-size: 16px;
+}
+
+.contact-form input:focus {
+	outline: none;
+}
+
+.contact-form .btn-cta {
+	margin: 0;
+}

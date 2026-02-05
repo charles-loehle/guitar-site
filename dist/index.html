@@ -18,10 +18,6 @@
 	<body>
 		<header id="header" class="header">
 			<div class="header__inner">
-				<!-- <a href="/" class="logo">
-					<img src="./images/cl-logo.png" alt="logo" />
-				</a> -->
-
 				<a id="menu" class="header__menu aria-label=" toggle="" navigation="" menu"="">
 					<span></span>
 					<span></span>
@@ -64,7 +60,7 @@
 				</div>
 			</section>
 
-			<article id="about" class="about-section">
+			<section id="about" class="about-section">
 				<div class="container">
 					<div class="about-section__header">
 						<h3>About Professional Guitarist Charles Loehle</h3>
@@ -91,51 +87,7 @@
 						</div>
 					</div>
 				</div>
-			</article>
-
-			<!-- <section id="projects" class="projects-section">
-				<div class="container">
-					<div class="projects-section__header">
-						<h3>About</h3>
-					</div>
-					<hr />
-					<div class="projects-grid">
-						<div class="card wordpress-restaurant-site">
-							<div class="card__body">
-								<h4 class="card__title">About</h4>
-								<p class="card__desc">
-									Charles obtained a Master’s Degree in Jazz Guitar
-									Performance and a music teacher certificate from Georgia State University.
-								</p>
-							</div>
-						</div>
-
-						<div class="card music-lesson-tracker">
-							<div class="card__body">
-								<h4 class="card__title">Lessons</h4>
-									<p class="card__desc">
-									Book a lesson on Zoom
-									</p>
-								<a href="#projects" class="btn btn-cta btn-accent"
-									>BOOK A LESSON</a
-								>
-							</div>
-						</div>
-
-						<div class="card study-tracker">
-							<div class="card__body">
-								<h4 class="card__title">Music</h4>
-								<p class="card__desc">
-									Track your study time with this app. Add a subject,
-									description and time spent. View your study history. Built
-									with NextJS, Typescript, Supabase, Bootstrap and custom CSS
-									and design.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> -->
+			</section>
 
 			<section id="contact" class="contact-section">
 				<div class="dark-overlay">
@@ -143,10 +95,37 @@
 						<div class="contact-section__header">
 							<h3>Contact</h3>
 						</div>
+
+						 <div class="contact-form">
+								<form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+									<input type="hidden" name="form-name" value="contact">
+									<p class="hidden">
+											<label>Don’t fill this out if you're human: <input name="bot-field"></label>
+										</p>
+									<div class="form-control">
+											<input type="text" name="name" placeholder="Name" required="">
+									</div>
+									<div class="form-control">
+											<input type="email" name="email" placeholder="Email" required="">
+									</div>
+									<div class="form-control">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<input type="submit" value="Send" class="btn btn-cta btn-accent">
+                </form>
+            </div>
+
 						<div class="contact-section__links">
 
-							<a href="mailto:charlesloehle@gmail.com" class="contact-details"><i class="fa fa-at"></i> Send an email</a>
-							<a href="https://www.linkedin.com/in/charles-loehle/" target="_blank" class="contact-details"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+							<!-- <a href="mailto:charlesloehle@gmail.com" class="contact-details"
+								><i class="fa fa-at"></i> Send an email</a
+							>
+							<a
+								href="https://www.linkedin.com/in/charles-loehle/"
+								target="_blank"
+								class="contact-details"
+								><i class="fab fa-linkedin-in"></i> LinkedIn</a
+							> -->
 						</div>
 					</div>
 				</div>

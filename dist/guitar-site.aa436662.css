@@ -709,7 +709,6 @@ hr {
 
 .contact-section__header {
   text-align: center;
-  margin-bottom: 3rem;
 }
 
 .contact-section__hello {
@@ -742,5 +741,55 @@ footer p, footer a {
   color: #fcfdff;
   padding: 1rem;
   font-size: 1.5rem;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.hidden, [type="hidden"] {
+  display: none !important;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (width >= 768px) {
+  .contact-form {
+    width: 70%;
+  }
+}
+
+@media (width >= 1000px) {
+  .contact-form {
+    width: 60%;
+  }
+}
+
+.contact-form form {
+  flex-direction: column;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.contact-form input:focus {
+  outline: none;
+}
+
+.contact-form .btn-cta {
+  margin: 0;
 }
 /*# sourceMappingURL=guitar-site.aa436662.css.map */
